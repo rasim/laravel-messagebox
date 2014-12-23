@@ -1,5 +1,5 @@
 @extends("MessageBox::layout")
 
 @section("section")
-     <button class="messageClose">{{ \Config::get('MessageBox::okText') }}</button>
+     <button class="messageClose messageButton">{{ \Config::get('MessageBox::okText') }}</button>
 @stop
