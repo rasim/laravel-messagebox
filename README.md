@@ -3,7 +3,7 @@ Laravel Modal (Message Box)
 
 Arrangeable Messagebox For Laravel 4
 
-![alt tag](http://url/to/img.png)
+![modal example preview](http://tiys.net/modal.png)
 
 In composer.json;
 
