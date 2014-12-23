@@ -245,6 +245,9 @@
 .lt-ie9 .notif-close:hover:before {
   color: #999;
 }
+
+#shadow {background-color: #000; width: 100%; height: 100%; position: fixed; z-index: 998; display: none}
+
   </style>
   
 <script type="text/javascript">
@@ -254,9 +257,14 @@ window.jQuery || document.write('<script type="text/javascript" src="//ajax.goog
 
 <script type='text/javascript'>
 $(function() {
+
+$('<div id="shadow"></div>').appendTo("body");  
+$('#shadow').css({"opacity": '0.7',"display":"block"});
 $(".messageBox").animate({top: "10%", opacity:"1"}, 500);
+
 $(".messageClose").click(function(){
   $(".messageBox").animate({top: "-50%", opacity:"0"}, 500);
+  $('#shadow').css({"display":"none"});
 });});
 </script>
 
