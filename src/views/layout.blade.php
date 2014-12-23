@@ -9,6 +9,7 @@
     min-height: 10em;
     width: 90%;
     top:-50%;
+    z-index: 999;
 }
  
 .messageClose {
