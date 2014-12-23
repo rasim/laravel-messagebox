@@ -1,0 +1,23 @@
+{
+    "name": "rasim/modal",
+    "description": "Arrangeable Messagebox For Laravel 4",
+    "keywords": ["laravel","messagebox","modal","popup"],
+    "authors": [
+        {
+            "name": "Rasim ÖZDİNÇ",
+            "email": "rasimozdinc@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "classmap": [
+        ],
+        "psr-0": {
+            "Rasim\\Modal\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
