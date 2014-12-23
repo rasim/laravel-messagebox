@@ -3,7 +3,7 @@ Laravel Modal (Message Box)
 
 Arrangeable Messagebox For Laravel 4
 
-![modal example preview](http://tiys.net/modal.png)
+![modal example preview](https://camo.githubusercontent.com/efe9a8d52a01f0b5fd3ffa4c70ee16b6830eb4ee/687474703a2f2f746979732e6e65742f6d6f64616c2e706e67)
 
 In composer.json;
 
