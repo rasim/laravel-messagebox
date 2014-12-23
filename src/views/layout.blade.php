@@ -31,12 +31,12 @@
 
 }
 
-.container {
+.messageContainer {
   margin: 20px auto;
   width: {{ \Config::get('MessageBox::width') }};
 }
 
-.container .notif {
+.messageContainer .notif {
   margin: 10px 0;
 }
  
@@ -260,7 +260,7 @@ $(".messageClose").click(function(){
 </script>
 
 <div class="messageBox">
-  <div class="container">
+  <div class="messageContainer">
      <section class="notif notif-{{ $status }}">
       <h6 class="notif-title">{{ $title }}</h6>
       <p>{{ $message }}</p>
